@@ -1,0 +1,81 @@
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.settings {
+    margin-left: 20px;
+}
+
+.img {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 70px;
+    margin-top: 35px;
+}
+
+.user-card {
+   background-color: hsl(246, 80%, 60%);
+   height: 300px;
+   width: 200px;
+   border-radius: 15px;
+   position: relative;
+   top: 15px;
+   font-weight: 400;
+   padding-left: 25px
+}
+
+#user-card-before {
+    font-weight: 100;
+    opacity: 0.6;
+    margin-top: 50px;
+}
+
+#user-card-name {
+    padding-top: 5px;
+    font-size: 30px;
+    opacity: 1;
+    font-weight: 200;
+}
+
+.selection ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.selection {
+    height: 150px;
+    width: 200px;
+    background-color: hsl(235, 46%, 20%);
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.dateSelection li {
+    list-style: none;
+    cursor: pointer;
+}
